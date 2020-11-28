@@ -6,6 +6,7 @@ train_v10.jsonl includes:
     so in total of 8500+100+243 = 9743 images
 """
 import pandas as pd
+import argparse
 
 
 def get_img_list_from_dev(path_to_annotations):
@@ -40,6 +41,12 @@ def get_img_list_from_dev(path_to_annotations):
     return val_seen_imgs
 
 
+ap = argparse.ArgumentParser()
+ap.add_argument("-ho", "--home", required=True, help="home directory of your PC")
+args = vars(ap.parse_args())
+# Assign corresponding variables
+home = args["home"]
+
 # Get annotations
 dev_seen = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/dev_seen.jsonl", lines=True)
 dev_unseen = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/dev_unseen.jsonl", lines=True)
@@ -47,27 +54,14 @@ train = pd.read_json("/root/.cache/torch/mmf/data/datasets/hateful_memes/default
 
 # Get 100 image id's: {'dev_seen' \ 'dev_unseen'}
 seen_imgs = get_img_list_from_dev("/root/.cache/torch/mmf/data/datasets/hateful_memes/defaults/annotations/")
-
 # Add 100 images to 'train.jsonl'
 for i in seen_imgs:
     train = pd.concat([train, dev_seen[dev_seen["img"]==i]], axis=0)
 
-# Add 'dev_unseen.jsonl' to 'train.jsonl'
-final_data = pd.concat([train, dev_unseen], axis=0)
-
-##############################################################################
-# Check if feature is extracted for an image from memotion
-memotion = pd.read_json("./label_memotion.jsonl", lines=True)
-tmp =list( pd.read_csv("./extracted_feats_memotion.csv")["img"])
-
-new_memo = pd.DataFrame()
-
-for i in memotion["img"]:
-    if i.split("/")[1].split(".")[0]+".npy" in tmp:
-        new_memo = pd.concat([new_memo, memotion[memotion["img"]==i]])
-##############################################################################
+# Load labeled Memotion data
+memotion = pd.read_json(os.path.join(home, "hateful_memes-hate_detectron/utils/label_memotion.jsonl"), lines=True)
 # Add memotion data to 'train.jsonl'
-train = pd.concat([final_data, new_memo])
+train = pd.concat([train, memotion], axis=0)
 # Shuffle data
 train = train.sample(frac=1).reset_index(drop=True)
 # Write new jsonl file
