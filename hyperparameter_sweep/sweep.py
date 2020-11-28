@@ -5,9 +5,9 @@ import argparse
 
 
 ap = argparse.ArgumentParser()
-ap.add_argument("-h", "--home", required=True, type=float, help="home directory of your PC")
-ap.add_argument("-f", "--feats_dir", required=True, type=float, help="directory of features folder")
-ap.add_argument("-t", "--train", required=True, type=float, help="name of the training .jsonl file")
+ap.add_argument("-ho", "--home", required=True, help="home directory of your PC")
+ap.add_argument("-f", "--feats_dir", required=True, help="directory of features folder")
+ap.add_argument("-t", "--train", required=True, help="name of the training .jsonl file")
 
 args = vars(ap.parse_args())
 # Assign corresponding variables
@@ -16,7 +16,7 @@ feats_dir = args["feats_dir"]
 train_dir = args["train"]
 
 # cd into home directory
-os.chdir(home)
+os.path.join(home, "hateful_memes-hate_detectron/hyperparameter_sweep")
 # Define where image features are
 feats_dir = os.path.join(home, feats_dir)
 # Define where train.jsonl is
