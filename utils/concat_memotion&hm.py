@@ -67,5 +67,5 @@ train = train.sample(frac=1).reset_index(drop=True)
 # Write new jsonl file
 train_json = train.to_json(orient='records', lines=True)
 
-with open("train_v10.jsonl", "w", encoding='utf-8') as f:
+with open(os.path.join(home, "train_v10.jsonl"), "w", encoding='utf-8') as f:
     f.write(train_json)
