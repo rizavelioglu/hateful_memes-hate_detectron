@@ -2,8 +2,8 @@
 train_v10.jsonl includes:
     - train.jsonl (8500)
     - 100 images from 'dev_seen.jsonl' that are not in 'dev_unseen.jsonl' (100)
-    - images from memotion dataset (243)
-    so in total of 8500+100+243 = 9743 images
+    - images from memotion dataset (328)
+    so in total of 8500+100+328 = 8928 images
 """
 import pandas as pd
 import argparse
