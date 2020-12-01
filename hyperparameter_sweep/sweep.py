@@ -15,18 +15,12 @@ home = args["home"]
 feats_dir = args["feats_dir"]
 train_dir = args["train"]
 
-# cd into home directory
-os.path.join(home, "hateful_memes-hate_detectron/hyperparameter_sweep")
-# Define where image features are
-feats_dir = os.path.join(home, feats_dir)
-# Define where train.jsonl is
-train_dir = os.path.join(home, train_dir)
 # for each iteration a folder will be created whose name is 'i'
 i = 1
 
-for bs in [16, 32, 64, 80]:
+for bs in [32, 64, 80]:
     for lr in [0.3, 0.6]:
-        for w_steps in [250, 500, 750]:
+        for w_steps in [250, 500]:
             for w_type in ['warmup_cosine', 'warmup_linear']:
                 for w_factor in [0.1, 0.3]:
                     for w_iter in [500, 1000]:

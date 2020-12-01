@@ -7,7 +7,7 @@ train_v10.jsonl includes:
 """
 import pandas as pd
 import argparse
-
+import os
 
 def get_img_list_from_dev(path_to_annotations):
     """
