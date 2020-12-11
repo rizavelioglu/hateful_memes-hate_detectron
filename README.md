@@ -1,6 +1,11 @@
-# <font color='Aqua'> <b> Hateful Memes challenge Team HateDetectron Submissions </b> </font>
+# <font color='Aqua'> <b> Hateful Memes Challenge-Team HateDetectron Submissions </b> </font>
 
 This repository contains *all* the code used at the competition. There are 2 main Jupyter notebooks where all the job is done and documented:
+- The *'reproducing results'* notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kAYFd50XvFnLO-k9FU9iLM21J8djTo-Q?usp=sharing)
+- The *'end-to-end'* notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1O0m0j9_NBInzdo3K04jD19IyOhBR1I8i?usp=sharing)
+
+
+This notebook is only for reproducing the results of Phase-2 submissions by the team `HateDetectron`. In other words, just loading the final models and getting predictions for the test set. See the [end2end-process notebook](https://colab.research.google.com/drive/1O0m0j9_NBInzdo3K04jD19IyOhBR1I8i?usp=sharing) to see the whole approach in detail: how the models are trained, how the image features are extracted, which datasets are used, etc.
 
 
 
