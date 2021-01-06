@@ -43,7 +43,6 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
       <img src="https://drivendata-prod-public.s3.amazonaws.com/images/drivendata-logo.svg" width="250">
     </a>
 
----
 <h2><b> Support Me: </b></h2>
   <p align="center">
     <a href="https://paypal.me/supportriza">
