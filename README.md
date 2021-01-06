@@ -1,4 +1,4 @@
-<h1><font color='Aqua'><b> Hateful Memes Challenge-Team HateDetectron Submissions </b></font></h1>
+# <font color='Aqua'><b> Hateful Memes Challenge-Team HateDetectron Submissions </b></font>
 
 Check out the paper on [![arXiv](https://img.shields.io/badge/arXiv-2012.12975-b31b1b.svg)](https://arxiv.org/abs/2012.12975)
 
@@ -18,7 +18,7 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
   - [Competition Paper](https://arxiv.org/pdf/2005.04790.pdf)
 
 <h2><b> Competition Results: </b></h2>
-  We are placed the **3rd of 3.173** participants in total!
+  We are placed the <b>3rd</b> out of <b>3.173</b> participants in total!
 
   See the official Leaderboard [here!](https://www.drivendata.org/competitions/70/hateful-memes-phase-2/leaderboard/)
 
