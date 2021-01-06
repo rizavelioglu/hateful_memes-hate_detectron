@@ -49,3 +49,7 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
       <img src="./paypal_donate.png" height=70>
     </a>
   </p>
+
+
+<!-- Profile Views:
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Frizavelioglu%2Fhateful_memes-hate_detectron&count_bg=%2385B461&title_bg=%23555555&title=hits&edge_flat=false"/> -->
