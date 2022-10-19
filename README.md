@@ -67,6 +67,7 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
 ---
 
 <h2><b> Citation: </b></h2>
+
 ```
 @article{velioglu2020hateful,
   author = {Velioglu, Riza and Rose, Jewgeni},
