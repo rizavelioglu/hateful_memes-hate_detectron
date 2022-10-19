@@ -66,6 +66,18 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
 
 ---
 
+<h2><b> Citation: </b></h2>
+```
+@article{velioglu2020hateful,
+  author = {Velioglu, Riza and Rose, Jewgeni},
+  title = {Detecting Hate Speech in Memes Using Multimodal Deep Learning Approaches: Prize-winning solution to Hateful Memes Challenge},
+  doi = {https://doi.org/jhb3}, 
+  publisher = {arXiv},
+  year = {2020}, 
+}
+```
+
+
 <!-- Icons are taken from: https://github.com/edent/SuperTinyIcons -->
 <h2><b> Contact: </b></h2>
   <p align="center">
@@ -87,10 +99,3 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
     <a href="https://www.drivendata.org/users/riza.velioglu/">
       <img src="https://drivendata-prod-public.s3.amazonaws.com/images/drivendata-logo.svg" width="250">
     </a> -->
-
-<h3><b> Support Me: </b></h3>
-  <p align="center">
-    <a href="https://paypal.me/supportriza">
-      <img src="./paypal_donate.png" height=70>
-    </a>
-  </p>
