@@ -1,5 +1,10 @@
 # <font color='Aqua'><b> Hateful Memes Challenge-Team HateDetectron Submissions </b></font>
 
+![GitHub Repo stars](https://img.shields.io/github/stars/rizavelioglu/hateful_memes-hate_detectron?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rizavelioglu/hateful_memes-hate_detectron?style=social)
+![GitHub](https://img.shields.io/github/license/rizavelioglu/hateful_memes-hate_detectron)
+![GitHub repo size](https://img.shields.io/github/repo-size/rizavelioglu/hateful_memes-hate_detectron)
+
 Check out the paper on [![arXiv](https://img.shields.io/badge/arXiv-2012.12975-b31b1b.svg)](https://arxiv.org/abs/2012.12975)
 
 This repository contains *all* the code used at the [Hateful Memes Challenge](https://ai.facebook.com/tools/hatefulmemes/) by Facebook AI. There are 2 main Jupyter notebooks where all the job is done and documented:
