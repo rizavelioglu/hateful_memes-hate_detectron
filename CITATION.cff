@@ -1,14 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this repository, please consider citing it."
+title: "HateDetectron"
+abstract: "This repository implements methods presented in the paper: Detecting Hate Speech in Memes Using Multimodal Deep Learning Approaches: Prize-winning solution to Hateful Memes Challenge."
 authors:
 - family-names: "Velioglu"
   given-names: "Riza"
   orcid: https://orcid.org/0000-0002-2160-4976
-title: "Detecting Hate Speech in Memes Using Multimodal Deep Learning Approaches: Prize-winning solution to Hateful Memes Challenge"
 preferred-citation:
   type: article
   title: "Detecting Hate Speech in Memes Using Multimodal Deep Learning Approaches: Prize-winning solution to Hateful Memes Challenge"
-  doi: https://doi.org/jhb3
+  doi: 10.48550/arXiv.2012.12975
   url: https://arxiv.org/abs/2012.12975
   journal: arXiv
   authors:
@@ -17,4 +18,8 @@ preferred-citation:
   - family-names: "Rose"
     given-names: "Jewgeni"
   year: 2020
+keywords:
+- artificialintelligence
+- deeplearning
+- hatefulmemes
 repository-code: "https://github.com/rizavelioglu/hateful_memes-hate_detectron"
