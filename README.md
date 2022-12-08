@@ -5,17 +5,22 @@
 ![GitHub](https://img.shields.io/github/license/rizavelioglu/hateful_memes-hate_detectron)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rizavelioglu/hateful_memes-hate_detectron)
 
-Check out the paper on [![arXiv](https://img.shields.io/badge/arXiv-2012.12975-b31b1b.svg)](https://arxiv.org/abs/2012.12975)
+Check out the paper on [![arXiv](https://img.shields.io/badge/arXiv-2012.12975-b31b1b.svg)](https://arxiv.org/abs/2012.12975) 
+and check out my [![thesis](https://img.shields.io/badge/website-MSc.Thesis-lightgreen)](https://rizavelioglu.github.io/publication/2021-04-msc-thesis)
+which offers an in-depth analysis of the approach as well as an overview of Multimodal Research and its foundations.
 
 This repository contains *all* the code used at the [Hateful Memes Challenge](https://ai.facebook.com/tools/hatefulmemes/) by Facebook AI. There are 2 main Jupyter notebooks where all the job is done and documented:
 - The *'reproducing results'* notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1kAYFd50XvFnLO-k9FU9iLM21J8djTo-Q?usp=sharing)
 - The *'end-to-end'* notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1O0m0j9_NBInzdo3K04jD19IyOhBR1I8i?usp=sharing)
 
-The first notebook is only for reproducing the results of Phase-2 submissions by the team `HateDetectron`. In other words, just loading the final models and getting predictions for the test set. See the [*end-to-end* notebook](https://colab.research.google.com/drive/1O0m0j9_NBInzdo3K04jD19IyOhBR1I8i?usp=sharing) to have a look at the whole approach in detail: how the models are trained, how the image features are extracted, which datasets are used, etc.
+The first notebook is only for reproducing the results of Phase-2 submissions by the team `HateDetectron`. In other 
+words, just loading the final models and getting predictions for the test set. See the [*end-to-end* notebook](https://colab.research.google.com/drive/1O0m0j9_NBInzdo3K04jD19IyOhBR1I8i?usp=sharing) 
+to have a look at the whole approach in detail: how the models are trained, how the image features are extracted, which datasets are used, etc.
 
 ---
 <h2><b> About the Competition </b></h2>
-  The Hateful Memes Challenge and Data Set is a competition and open source data set designed to measure progress in multimodal vision-and-language classification.
+  The Hateful Memes Challenge and Data Set is a competition and open source data set designed to measure progress in 
+multimodal vision-and-language classification.
 
   Check out the following sources to get more on the challenge:
   - [Facebook AI](https://ai.facebook.com/tools/hatefulmemes/)
@@ -66,9 +71,6 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
   </details>
 
 
-
-
-
 ---
 
 <h2><b> Citation: </b></h2>
@@ -83,6 +85,16 @@ The first notebook is only for reproducing the results of Phase-2 submissions by
 }
 ```
 
+Please also consider citing my thesis:
+```
+@mastersthesis{velioglu2021detecting,
+  title   = "Detecting Hate Speech In Multimodal Memes Using Vision-Language Models",
+  author  = "Velioglu, Riza",
+  school  = "Bielefeld University",
+  year    = "2021",
+  url     = "http://rizavelioglu.github.io/files/RizaVelioglu-MScThesis.pdf"
+}
+```
 
 <!-- Icons are taken from: https://github.com/edent/SuperTinyIcons -->
 <h2><b> Contact: </b></h2>
