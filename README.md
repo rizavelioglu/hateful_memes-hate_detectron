@@ -4,6 +4,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/rizavelioglu/hateful_memes-hate_detectron?style=social)
 ![GitHub](https://img.shields.io/github/license/rizavelioglu/hateful_memes-hate_detectron)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rizavelioglu/hateful_memes-hate_detectron)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/detecting-hate-speech-in-memes-using/meme-classification-on-hateful-memes)](https://paperswithcode.com/sota/meme-classification-on-hateful-memes?p=detecting-hate-speech-in-memes-using)
 
 Check out the paper on [![arXiv](https://img.shields.io/badge/arXiv-2012.12975-b31b1b.svg)](https://arxiv.org/abs/2012.12975) 
 and check out my [![thesis](https://img.shields.io/badge/website-MSc.Thesis-lightgreen)](https://rizavelioglu.github.io/publication/2021-04-msc-thesis)
